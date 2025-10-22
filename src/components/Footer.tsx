@@ -22,14 +22,14 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="column is-3">
             <div className="is-flex is-align-items-center mb-4">
-              <div className="is-flex is-align-items-center is-justify-content-center has-background-danger has-text-white mr-3" 
-                   style={{width: '32px', height: '32px', borderRadius: '6px'}}>
-                <span className="has-text-weight-bold">F</span>
-              </div>
-              <span className="title is-4 has-text-white">Flith Farm</span>
+              <span className="has-text-weight-bold" style={{
+                fontSize: '24px',
+                marginRight: '8px'
+              }}>🏠</span>
+              <span className="title is-4 has-text-white">Correction</span>
             </div>
             <p className="has-text-grey-light mb-4">
-              The ultimate creator platform for sharing your videos with the world. 
+              The ultimate correction platform for sharing your videos with the world. 
               Join our community of content creators and discover amazing content.
             </p>
             <div className="is-flex">
@@ -96,14 +96,14 @@ const Footer: React.FC = () => {
         <div className="columns is-vcentered">
           <div className="column">
             <p className="has-text-grey-light is-size-7">
-              © 2024 Flith Farm. All rights reserved.
+              © 2024 Correction. All rights reserved.
             </p>
           </div>
           <div className="column has-text-right">
             <div className="is-flex is-justify-content-flex-end is-align-items-center">
               <span className="has-text-grey-light is-size-7 mr-2">Made with</span>
               <Heart size={14} className="has-text-danger mr-2" />
-              <span className="has-text-grey-light is-size-7">by the Flith Farm team</span>
+              <span className="has-text-grey-light is-size-7">by the Correction team</span>
             </div>
           </div>
         </div>

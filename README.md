@@ -1,6 +1,6 @@
-# Flith Farm - Creator Platform Video Website
+# Correction - Creator Platform Video Website
 
-A modern, dark-themed creator platform video website built with TypeScript (React) frontend and PHP backend, inspired by YouTube.
+A modern, dark-themed correction platform video website built with TypeScript (React) frontend and PHP backend, inspired by YouTube.
 
 ## Features
 

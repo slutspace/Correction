@@ -30,48 +30,11 @@ const Header: React.FC = () => {
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <div className="is-flex is-align-items-center">
-            <div className="is-flex is-align-items-center is-justify-content-center" 
-                 style={{
-                   width: '32px', 
-                   height: '32px', 
-                   borderRadius: '50%', 
-                   marginRight: '8px',
-                   background: 'linear-gradient(135deg, #20B2AA, #FFD700, #FF69B4, #20B2AA)',
-                   border: '2px solid #FFD700',
-                   boxShadow: '0 0 20px rgba(255, 215, 0, 0.4), inset 0 0 10px rgba(255, 255, 255, 0.2)',
-                   position: 'relative',
-                   overflow: 'hidden',
-                   animation: 'rainbow-pulse 2s ease-in-out infinite alternate'
-                 }}>
-              <span className="has-text-weight-bold" style={{
-                color: '#FFFFFF', 
-                textShadow: '0 0 10px rgba(255, 255, 255, 0.8), 1px 1px 2px rgba(0,0,0,0.5)', 
-                fontSize: '16px',
-                filter: 'drop-shadow(0 0 5px rgba(255, 255, 255, 0.6))'
-              }}>✨</span>
-              <div style={{
-                position: 'absolute',
-                top: '-2px',
-                left: '-2px',
-                right: '-2px',
-                bottom: '-2px',
-                background: 'radial-gradient(circle at 30% 30%, rgba(255,255,255,0.4) 0%, transparent 60%)',
-                borderRadius: '50%',
-                pointerEvents: 'none'
-              }}></div>
-              <div style={{
-                position: 'absolute',
-                top: '2px',
-                left: '2px',
-                right: '2px',
-                bottom: '2px',
-                background: 'conic-gradient(from 0deg, #20B2AA, #FFD700, #FF69B4, #20B2AA)',
-                borderRadius: '50%',
-                opacity: 0.3,
-                pointerEvents: 'none'
-              }}></div>
-            </div>
-            <span className="has-text-weight-bold is-size-5">Flith Farm</span>
+            <span className="has-text-weight-bold" style={{
+              fontSize: '24px',
+              marginRight: '8px'
+            }}>🏠</span>
+            <span className="has-text-weight-bold is-size-5">Correction</span>
           </div>
         </Link>
 
